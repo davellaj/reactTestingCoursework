@@ -11,7 +11,6 @@ const description = "Example description";
 const images = [{url:url, description:description}, {url:url, description:description}];
 
 
-
 document.addEventListener('DOMContentLoaded', () =>
-	 	ReactDOM.render(<Gallery images={images}/>, document.getElementById('app'))
-	)
+	ReactDOM.render(<Gallery images={images}/>, document.getElementById('app'))
+)
